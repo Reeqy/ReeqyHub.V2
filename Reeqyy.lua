@@ -33,7 +33,33 @@ end)
 
 Maintab:Button("FE GUI ", "This function may not work sometimes and you can get Kicked.", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/VZJEYiJF", true))()
-    
+
+    Flux:Notification("Loading..", "Alright")
+end)
+
+local Maintab2 = win:Tab("Work at a pizza place", "http://www.roblox.com/asset/?id=6023426915")
+
+
+local Maintab3 = win:Tab("Dahood", "http://www.roblox.com/asset/?id=6023426915")
+
+
+Maintab3:Button("Admin cmds", "This function may not work sometimes and you can get Kicked.", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+
+    Flux:Notification("Loading..", "Alright")
+end)
+
+
+Maintab2:Button("AutoFarm", "This function may not work sometimes and you can get Kicked.", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/cEwtwKZR",true))()
+
+    Flux:Notification("Loading..", "Alright")
+end)
+
+
+Maintab2:Button("Trolling", "This function may not work sometimes and you can get Kicked.", function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/b19b733fb8e9e0299381653c50e21e49/raw/a0c7394ba4451c6c548979103aea600d89b70f32/xxxcccc", true))()
+
     Flux:Notification("Loading..", "Alright")
 end)
 
@@ -64,11 +90,7 @@ end)
 
 
 
-tab:Button("Swagmode", "This function may not work sometimes and you can get Kicked.", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/BETA_Swagmode'))()
 
-Flux:Notification("Loading..", "Alright")
-end)
 
 tab:Button("Dimag X", "This function may not work sometimes and you can get Kicked.", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Dimag16/DimagX_NEW/main/dimagx', true))()
