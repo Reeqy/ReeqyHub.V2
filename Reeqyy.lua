@@ -181,4 +181,18 @@ end)
 
 
 
+    local Paintball = win:Tab("Big Paintball", "http://www.roblox.com/asset/?id=6023426915")
+
+    Paintball:Button("Owl Hub", "This function may not work sometimes and you can get Kicked.", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+
+
+
+        Flux:Notification("Loading..", "Alright")
+    end)
+
+
+
+
+
 
