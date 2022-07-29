@@ -16,15 +16,20 @@ local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scr
 
 
 
-local win = Flux:Window("ReeqyHub", "UwU", Color3.fromRGB(255, 110, 48), Enum.KeyCode.LeftControl)
+local win = Flux:Window("ReeqyHub", "JJsploit is the best!", Color3.fromRGB(255, 110, 48), Enum.KeyCode.LeftControl)
 local Maintab = win:Tab("Universal", "http://www.roblox.com/asset/?id=6023426915")
 
 
 local tab = win:Tab("Dahood", "http://www.roblox.com/asset/?id=6023426915")
 
 
-Maintab:Button("Infinite Yield", "This function may not work sometimes and you can get Kicked.", function()
-    loadstring(game:HttpGet(('https://pastebin.com/raw/K9uLn50M'),true))()
+local Maintab4 = win:Tab("Dahood", "http://www.roblox.com/asset/?id=6023426915")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main", true))()
+
+
+Maintab4:Button("Bolts HUB", "This function may not work sometimes and you can get Kicked.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main", true))()
 
     Flux:Notification("Loading..", "Alright")
 end)
