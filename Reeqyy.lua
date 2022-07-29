@@ -20,6 +20,24 @@ local win = Flux:Window("ReeqyHub", "JJsploit is the best!", Color3.fromRGB(255,
 local Maintab = win:Tab("Universal", "http://www.roblox.com/asset/?id=6023426915")
 
 
+
+Maintab:Button("Infinite Yield", "This function may not work sometimes and you can get Kicked.", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+    Flux:Notification("Loading..", "Alright")
+end)
+
+
+
+local Jailbreak = win:Tab("Jailbreak", "http://www.roblox.com/asset/?id=6023426915")
+
+Jailbreak:Button("Jailbreak", "This function may not work sometimes and you can get Kicked.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
+
+    Flux:Notification("Loading..", "Alright")
+end)
+
+
 local tab = win:Tab("Dahood", "http://www.roblox.com/asset/?id=6023426915")
 
 
