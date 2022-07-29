@@ -52,7 +52,6 @@ end)
 
 local Maintab4 = win:Tab("Arsenal", "http://www.roblox.com/asset/?id=6023426915")
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main", true))()
 
 
 Maintab4:Button("Bolts HUB", "This function may not work sometimes and you can get Kicked.", function()
@@ -194,5 +193,14 @@ end)
 
 
 
+    local MM2 = win:Tab("MM2", "http://www.roblox.com/asset/?id=6023426915")
+
+    MM2:Button("Eclipse Hub V0.4", "This function may not work sometimes and you can get Kicked.", function()
+        getgenv().mainKey = "nil" local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
 
 
+
+
+
+        Flux:Notification("Loading..", "Alright")
+    end)
