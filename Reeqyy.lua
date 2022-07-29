@@ -23,6 +23,16 @@ local Maintab = win:Tab("Universal", "http://www.roblox.com/asset/?id=6023426915
 local tab = win:Tab("Dahood", "http://www.roblox.com/asset/?id=6023426915")
 
 
+local Maintab5 = win:Tab("Bedwars", "http://www.roblox.com/asset/?id=6023426915")
+
+
+Maintab:Button("Bedwars", "This function may not work sometimes and you can get Kicked.", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/loadstring'))()
+    
+    Flux:Notification("Loading..", "Alright")
+end)
+
+
 local Maintab4 = win:Tab("Arsenal", "http://www.roblox.com/asset/?id=6023426915")
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main", true))()
