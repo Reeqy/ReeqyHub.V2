@@ -23,7 +23,7 @@ local Maintab = win:Tab("Universal", "http://www.roblox.com/asset/?id=6023426915
 local tab = win:Tab("Dahood", "http://www.roblox.com/asset/?id=6023426915")
 
 
-local Maintab4 = win:Tab("Dahood", "http://www.roblox.com/asset/?id=6023426915")
+local Maintab4 = win:Tab("Arsenal", "http://www.roblox.com/asset/?id=6023426915")
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main", true))()
 
