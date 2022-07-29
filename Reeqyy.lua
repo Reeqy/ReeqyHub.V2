@@ -40,7 +40,7 @@ end)
 local Maintab2 = win:Tab("Work at a pizza place", "http://www.roblox.com/asset/?id=6023426915")
 
 
-local Maintab3 = win:Tab("Dahood", "http://www.roblox.com/asset/?id=6023426915")
+local Maintab3 = win:Tab("Prison Life", "http://www.roblox.com/asset/?id=6023426915")
 
 
 Maintab3:Button("Admin cmds", "This function may not work sometimes and you can get Kicked.", function()
