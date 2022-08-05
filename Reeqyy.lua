@@ -214,11 +214,31 @@ end)
     local MM2 = win:Tab("MM2", "http://www.roblox.com/asset/?id=6023426915")
 
     MM2:Button("Eclipse Hub V0.4", "This function may not work sometimes and you can get Kicked.", function()
-        getgenv().mainKey = "nil" local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+       
+        setclipboard("discord.gg/s9C9dWhAqV")
+        toclipboard("discord.gg/s9C9dWhAqV")
+        
+
+
+        OrionLib:MakeNotification({
+            Name = "Title!",
+            Content = "Notification content... what will it say??",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+        
+        --[[
+        Title = <string> - The title of the notification.
+        Content = <string> - The content of the notification.
+        Image = <string> - The icon of the notification.
+        Time = <number> - The duration of the notfication.
+        ]]
+
+   
 
 
 
 
 
-        Flux:Notification("Loading..", "Alright")
-    end)
+
+
