@@ -188,7 +188,6 @@ end)
 
 
     tab:Button("Destiny", "This function may not work sometimes and you can get Kicked.", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/compwnter/destiny/main/loader"))()
 
 
 
@@ -211,30 +210,7 @@ end)
 
 
 
-    local MM2 = win:Tab("MM2", "http://www.roblox.com/asset/?id=6023426915")
-
-    MM2:Button("Eclipse Hub V0.4", "This function may not work sometimes and you can get Kicked.", function()
-       
-        setclipboard("discord.gg/s9C9dWhAqV")
-        toclipboard("discord.gg/s9C9dWhAqV")
-        
-
-
-        OrionLib:MakeNotification({
-            Name = "Title!",
-            Content = "Notification content... what will it say??",
-            Image = "rbxassetid://4483345998",
-            Time = 5
-        })
-        
-        --[[
-        Title = <string> - The title of the notification.
-        Content = <string> - The content of the notification.
-        Image = <string> - The icon of the notification.
-        Time = <number> - The duration of the notfication.
-        ]]
-
-   
+    
 
 
 
