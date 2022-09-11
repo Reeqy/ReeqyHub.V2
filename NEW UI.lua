@@ -1,6 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "ReeqyHub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
-
+local inviteModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
+inviteModule.Join("https://discord.gg/VfD8phVgRZ")
 
 
 local Universal = Window:MakeTab({
